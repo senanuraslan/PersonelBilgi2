@@ -1,0 +1,42 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<div class="container"> 
+    <h3 class="d-flex justify-content-center">Anguler-MS SQL-Wep Api Uygulaması</h3>
+    <h5 class="d-flex justify-content-center">Personel Bilgi ve Yönetim Sistemi </h5>
+
+    <nav class="navbar navbar-expand-sm bg-light nvabar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">   
+                <button routerLink="Departman"
+                class="m-1 btn btn-light btn-outline-primary" Button>Departmanlar</button>
+            </li>
+            <li class="nav-item">   
+                <button routerLink="Personel"
+                class="m-1 btn btn-light btn-outline-primary" Button>Personeller</button>
+            </li>
+        </ul>
+    </nav>
+    <router-outlet></router-outlet> <!--Departman ve Personelleri getiren satır ve sütunları bunun sayesinde geliyor-->
+</div>
+<!--
+    RouterModule ile tanımladığınız yolları (paths) kullanarak sayfalar arası geçiş yaparsınız. 
+    Örneğin, home sayfası için path /home ve about sayfası için path /about olabilir.
+-->
